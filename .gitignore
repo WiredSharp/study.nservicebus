@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.learningtransport
-/.vs/Study.NServiceBus/v16/Server/sqlite3
+/.learningtransport/
+/.vs/
