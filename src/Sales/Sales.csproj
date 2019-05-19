@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NServiceBus" Version="7.1.8" />
+  </ItemGroup>
+
+  <Import Project="..\Messages\Messages.projitems" Label="Shared" />
+
+  <Import Project="..\Endpoints\Endpoints.projitems" Label="Shared" />
+
+</Project>

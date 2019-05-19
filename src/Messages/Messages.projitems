@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7fba20fa-018d-49da-b83e-00eb33f391f1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Messages</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Commands\PlaceOrder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\OrderBilled.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\OrderShipped.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\OrderPlaced.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Commands\" />
+  </ItemGroup>
+</Project>
